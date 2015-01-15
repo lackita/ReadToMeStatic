@@ -1,0 +1,7 @@
+# Site settings
+title: Read To Me
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://read-to-me.colinwilliams.name" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
