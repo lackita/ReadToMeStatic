@@ -4,7 +4,6 @@ title:  "Making Money"
 date:   2015-01-15 07:48:23
 ---
 
-<ul class="nav nav-stacked">
 * [Chapter 1](https://s3-us-west-2.amazonaws.com/readtome/filed/MakingMoney/Chapter01.mp3)
 * [Chapter 2](https://s3-us-west-2.amazonaws.com/readtome/filed/MakingMoney/Chapter02.mp3)
 * [Chapter 3](https://s3-us-west-2.amazonaws.com/readtome/filed/MakingMoney/Chapter03.mp3)
@@ -17,4 +16,3 @@ date:   2015-01-15 07:48:23
 * [Chapter 10](https://s3-us-west-2.amazonaws.com/readtome/filed/MakingMoney/Chapter10.mp3)
 * [Chapter 12](https://s3-us-west-2.amazonaws.com/readtome/filed/MakingMoney/Chapter12.mp3)
 * [Chapter 13](https://s3-us-west-2.amazonaws.com/readtome/filed/MakingMoney/Chapter13.mp3)
-</ul>
