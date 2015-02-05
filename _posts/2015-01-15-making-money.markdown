@@ -15,5 +15,6 @@ tags: pratchett
 * [Chapter 8](https://s3-us-west-2.amazonaws.com/readtome/MakingMoney/Chapter08.mp3)
 * [Chapter 9](https://s3-us-west-2.amazonaws.com/readtome/MakingMoney/Chapter09.mp3)
 * [Chapter 10](https://s3-us-west-2.amazonaws.com/readtome/MakingMoney/Chapter10.mp3)
+* [Chapter 11](https://s3-us-west-2.amazonaws.com/readtome/MakingMoney/Chapter11.mp3)
 * [Chapter 12](https://s3-us-west-2.amazonaws.com/readtome/MakingMoney/Chapter12.mp3)
 * [Chapter 13](https://s3-us-west-2.amazonaws.com/readtome/MakingMoney/Chapter13.mp3)
