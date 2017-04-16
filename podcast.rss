@@ -1,0 +1,43 @@
+---
+
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
+	<channel>
+		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>{{ site.title }}</title>
+		<description>{{ site.description | xml_escape }}</description>
+		<link>{{ site.url }}</link>
+		<language>{{ site.lang }}</language>
+		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
+		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+		<copyright>2017-{{ site.time | "%Y" }} {{ site.title }}</copyright>
+		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		<image>
+			<link>{{ site.url }}</link>
+			<url>{{ site.url }}/images/itunes.png</url>
+			<title>{{ site.title }}</title>
+		</image>
+		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+		<itunes:author>{{ site.author }}</itunes:author>
+		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
+		<itunes:owner>
+			<itunes:name>{{ site.author }}</itunes:name>
+			<itunes:email>{{ site.email }}</itunes:email>
+		</itunes:owner>
+		<itunes:image href="{{ site.url }}/images/itunes.png" />
+		<itunes:explicit>yes</itunes:explicit>
+		<item>
+			<title>Thud - 1</title>
+			<link>http://read-to-me.colinwilliams.name/2017/04/15/thud-1.html</link>
+			<pubDate>{{ "2017-04-15 11:24:00" | date_to_rfc822 }}</pubDate>
+			<description>Trial recording as podcast</description>
+			<guid isPermaLink="true">http://read-to-me.colinwilliams.name/2017/04/15/thud-1.html</guid>
+			<enclosure url="http://read-to-me-audio.colinwilliams.name/Thud/01.mp3" length="82147204" type="audio/mp3"/>
+			<itunes:author>Colin Williams</itunes:author>
+			<itunes:subtitle>Read To Me: Thud - 1</itunes:subtitle>
+		</item>
+	</channel>
+</rss>
