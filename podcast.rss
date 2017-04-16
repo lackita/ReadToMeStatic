@@ -29,15 +29,16 @@
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/itunes.png" />
 		<itunes:explicit>yes</itunes:explicit>
-		<item>
-			<title>Thud - 1</title>
-			<link>http://read-to-me.colinwilliams.name/2017/04/15/thud-1.html</link>
-			<pubDate>{{ "2017-04-15 11:24:00" | date_to_rfc822 }}</pubDate>
-			<description>Trial recording as podcast</description>
-			<guid isPermaLink="true">http://read-to-me.colinwilliams.name/2017/04/15/thud-1.html</guid>
-			<enclosure url="http://read-to-me-audio.colinwilliams.name/Thud/01.mp3" length="82147204" type="audio/mp3"/>
-			<itunes:author>Colin Williams</itunes:author>
-			<itunes:subtitle>Read To Me: Thud - 1</itunes:subtitle>
-		</item>
+		{% for post in site.posts %}
+		  {% for file in post.files %}
+		    <item>
+				<title>Thud - {{ file.name }}</title>
+				<link>{{ site.url }}{{ post.url }}</link>
+			    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<enclosure url="{{site.audio-url }}{{ post.base }}{{ file.name }}.mp3" type="audio/mp3"/>
+			</item>
+		  {% endfor %}
+		{% endfor %}
 	</channel>
 </rss>

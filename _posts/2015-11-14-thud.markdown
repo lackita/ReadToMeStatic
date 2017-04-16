@@ -3,6 +3,17 @@ layout: post
 title: "Thud"
 date: 2015-11-14 11:24:00
 tags: pratchett
+base: Thud/
+files:
+  - name: 01
+  - name: 02
+  - name: 03
+  - name: 04
+  - name: 05
+  - name: 06
+  - name: 07
+  - name: 08
+  - name: 09
 ---
 
 * [Part 1](http://read-to-me-audio.colinwilliams.name/Thud/01.mp3)
