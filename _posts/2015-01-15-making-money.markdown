@@ -3,6 +3,21 @@ layout: post
 title:  "Making Money"
 date:   2015-01-15 07:48:23
 tags: pratchett
+base: MakingMoney/Chapter
+files:
+  - name: "01"
+  - name: "02"
+  - name: "03"
+  - name: "04"
+  - name: "05"
+  - name: "06"
+  - name: "07"
+  - name: "08"
+  - name: "09"
+  - name: "10"
+  - name: "11"
+  - name: "12"
+  - name: "13"
 ---
 
 * [Chapter 1](http://read-to-me-audio.colinwilliams.name/MakingMoney/Chapter01.mp3)

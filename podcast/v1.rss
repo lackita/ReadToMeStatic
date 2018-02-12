@@ -32,12 +32,12 @@
 		{% for post in site.posts %}
 		  {% for file in post.files %}
 		    <item>
-				<title>Thud - {{ file.name }}</title>
-				<link>{{ site.url }}{{ post.url }}</link>
-			    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<enclosure url="{{site.audio-url }}{{ post.base }}{{ file.name }}.mp3" type="audio/mp3"/>
-			</item>
+		      <title>{{ post.title }} - {{ file.name }}</title>
+		      <link>{{ site.url }}{{ post.url }}</link>
+		      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+		      <enclosure url="{{site.audio-url }}{{ post.base }}{{ file.name }}.mp3" type="audio/mp3"/>
+		    </item>
 		  {% endfor %}
 		{% endfor %}
 	</channel>
