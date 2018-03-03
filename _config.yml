@@ -3,6 +3,9 @@ title: Read To Me
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://read-to-me.colinwilliams.name" # the base hostname & protocol for your site
 audio-url: "http://read-to-me-audio.colinwilliams.name/"
+lang: en-us
+email: colin@colinwilliams.name
+
 
 # Build settings
 markdown: kramdown
