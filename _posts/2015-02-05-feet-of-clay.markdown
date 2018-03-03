@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Feet Of Clay"
-date:   2015-01-15 07:48:24
+date:   2018-01-15 07:48:24
 tags: pratchett
 base: FeetOfClay/
 files:
