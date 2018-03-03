@@ -3,6 +3,20 @@ layout: post
 title:  "Feet Of Clay"
 date:   2015-01-15 07:48:24
 tags: pratchett
+base: FeetOfClay/
+files:
+  - name: "01"
+  - name: "02"
+  - name: "03"
+  - name: "04"
+  - name: "05"
+  - name: "06"
+  - name: "07"
+  - name: "08"
+  - name: "09"
+  - name: "10"
+  - name: "11"
+  - name: "12"
 ---
 
 * [Part 1](http://read-to-me-audio.colinwilliams.name/FeetOfClay/01.MP3)
