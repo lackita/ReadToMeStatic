@@ -36,7 +36,7 @@
 		      <link>{{ site.url }}{{ post.url }}</link>
 		      <pubDate>{{ forloop.index + post.date | date_to_rfc822 }}</pubDate>
 		      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-		      <enclosure url="{{ site.audio-url }}{{ post.base }}{{ file.name }}.mp3" type="audio/mp3"/>
+		      <enclosure url="{{ site.audio-url }}{{ post.base }}{{ file.name }}.{{ post.extension }}" type="audio/mp3"/>
 		    </item>
 		  {% endfor %}
 		{% endfor %}

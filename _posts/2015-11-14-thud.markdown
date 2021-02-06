@@ -14,6 +14,7 @@ files:
   - name: "07"
   - name: "08"
   - name: "09"
+extension: mp3
 ---
 
 * [Part 1](http://read-to-me-audio.colinwilliams.name/Thud/01.mp3)

@@ -7,6 +7,7 @@ base: GoodOmens/Chapter
 files:
   - name: "01"
   - name: "02"
+extension: mp3
 ---
 
 * [Chapter 1](http://read-to-me-audio.colinwilliams.name/GoodOmens/Chapter01.mp3)

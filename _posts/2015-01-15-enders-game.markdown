@@ -19,6 +19,7 @@ files:
   - name: "13_Valentine"
   - name: "14_Enders_Teacher"
   - name: "15_Speaker_for_the_Dead"
+extension: MP3
 ---
 
 * [Third](http://read-to-me-audio.colinwilliams.name/EndersGame/1_Third.MP3)

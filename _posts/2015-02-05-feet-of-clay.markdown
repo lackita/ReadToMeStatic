@@ -17,6 +17,7 @@ files:
   - name: "10"
   - name: "11"
   - name: "12"
+extension: mp3
 ---
 
 * [Part 1](http://read-to-me-audio.colinwilliams.name/FeetOfClay/01.mp3)

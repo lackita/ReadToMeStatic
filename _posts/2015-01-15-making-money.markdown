@@ -18,6 +18,7 @@ files:
   - name: "11"
   - name: "12"
   - name: "13"
+extension: mp3
 ---
 
 * [Chapter 1](http://read-to-me-audio.colinwilliams.name/MakingMoney/Chapter01.mp3)
