@@ -2,6 +2,23 @@
 layout: post
 title:  "Ender's Game"
 date:   2015-01-15 07:48:24
+base: EndersGame/
+files:
+  - name: "/1_Third.MP3"
+  - name: "/2_Peter.MP3"
+  - name: "/3_Graff.MP3"
+  - name: "/4_Launch.MP3"
+  - name: "/5_Games.MP3"
+  - name: "/6_The_Giants_Drink.MP3"
+  - name: "/7_Salamander.MP3"
+  - name: "/8_Rat.MP3"
+  - name: "/9_Locke_and_Demosthenes.MP3"
+  - name: "/10_Dragon.MP3"
+  - name: "/11_Veni_Vidi_Vici.MP3"
+  - name: "/12_Bonzo.MP3"
+  - name: "/13_Valentine.MP3"
+  - name: "/14_Enders_Teacher.MP3"
+  - name: "/15_Speaker_for_the_Dead.MP3"
 ---
 
 * [Third](http://read-to-me-audio.colinwilliams.name/EndersGame/1_Third.MP3)
