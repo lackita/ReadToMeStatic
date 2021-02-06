@@ -3,6 +3,7 @@ layout: post
 title:  "Men At Arms"
 date:   2015-01-15 07:48:24
 tags: pratchett
+base: MenAtArms/
 ---
 
 * [Part 1](http://read-to-me-audio.colinwilliams.name/MenAtArms/01.MP3)
